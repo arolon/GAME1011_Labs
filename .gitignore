@@ -1,0 +1,58 @@
+# Build artifacts
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
+*.exe
+*.out
+*.app
+
+# CMake build directory
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Visual Studio files
+*.sln
+*.vcxproj*
+*.ncb
+*.sdf
+*.opensdf
+*.suo
+*.filters
+*.user
+.vs/
+
+# Xcode files
+*.xcworkspace/
+*.xcuserstate
+
+# Debugging and logs
+*.log
+*.dSYM/
+*.pch
+*.pdb
+
+# Generated files
+*.generated.h
+*.moc*
+
+# Package managers
+.vcpkg/
+.conan/
+
+# CLion and JetBrains IDEs
+.idea/
+*.iml
+cmake-build-debug/
+cmake-build-release/
+
+# Other temporary files
+*.swp
+*~
+.DS_Store
+Thumbs.db
